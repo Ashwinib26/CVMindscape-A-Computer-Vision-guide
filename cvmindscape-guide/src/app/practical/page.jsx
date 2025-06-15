@@ -5,42 +5,42 @@ export default function PracticalPage() {
     {
       title: "Image Transformations",
       emoji: "🌀",
-      filename: "image_transformations.ipynb"
+      filename: "Image Transformations.ipynb"
     },
     {
       title: "Image Filtering",
       emoji: "🧹",
-      filename: "image_filtering.ipynb"
+      filename: "Image Filtering.ipynb"
     },
     {
       title: "Morphological Operations",
       emoji: "🌿",
-      filename: "morphological_operations.ipynb"
+      filename: "Morphological Operations.ipynb"
     },
     {
       title: "Image Intensity & Geometric Transformations",
       emoji: "🎚️",
-      filename: "intensity_geometric_transformations.ipynb"
+      filename: "Image Intensity & Geometric Transformations.ipynb"
     },
     {
       title: "Corner Detection (Harris)",
       emoji: "📐",
-      filename: "corner_detection_harris.ipynb"
+      filename: "Harris Corner Detection.ipynb"
     },
     {
       title: "Optical Flow (Lucas-Kanade)",
       emoji: "🎥",
-      filename: "optical_flow_lucas_kanade.ipynb"
+      filename: "Optical Flow using Lucas-Kanade.ipynb"
     },
     {
       title: "Face Detection (Viola-Jones)",
       emoji: "😊",
-      filename: "face_detection_viola_jones.ipynb"
+      filename: "Face Detection using Viola Jones.ipynb"
     },
     {
       title: "Image Segmentation (Thresholding & Masking)",
       emoji: "🧩",
-      filename: "image_segmentation.ipynb"
+      filename: "Image Segmentation.ipynb"
     }
   ];
 
