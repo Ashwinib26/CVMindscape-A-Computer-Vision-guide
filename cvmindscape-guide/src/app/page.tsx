@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -26,18 +27,17 @@ export default function Home() {
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row mt-6">
-          <a
-            className="rounded-full border border-transparent transition-colors flex items-center justify-center bg-blue-600 text-white hover:bg-blue-700 font-medium text-sm sm:text-base h-10 sm:h-12 px-5"
-            href="/theory"
-          >
-            Explore Theory
-          </a>
-          <a
-            className="rounded-full border border-blue-600 dark:border-white transition-colors flex items-center justify-center hover:bg-blue-50 dark:hover:bg-gray-800 font-medium text-sm sm:text-base h-10 sm:h-12 px-5 text-blue-600 dark:text-white"
-            href="/practical"
-          >
-            Hands-on Labs
-          </a>
+          <Link href="/theory">
+            <button className="rounded-full border border-transparent transition-colors flex items-center justify-center bg-blue-600 text-white hover:bg-blue-700 font-medium text-sm sm:text-base h-10 sm:h-12 px-5">
+              Explore Theory
+            </button>
+          </Link>
+
+          <Link href="/practical">
+            <button className="rounded-full border border-blue-600 dark:border-white transition-colors flex items-center justify-center hover:bg-blue-50 dark:hover:bg-gray-800 font-medium text-sm sm:text-base h-10 sm:h-12 px-5 text-blue-600 dark:text-white">
+              Hands-on Labs
+            </button>
+          </Link>
         </div>
       </main>
 
