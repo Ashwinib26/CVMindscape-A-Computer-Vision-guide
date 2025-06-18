@@ -5,15 +5,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-white via-sky-50 to-blue-100 dark:from-neutral-900 dark:via-neutral-800 dark:to-neutral-900 text-gray-900 dark:text-gray-100 font-sans">
       <main className="flex flex-col items-center justify-center gap-10 px-6 py-20 sm:py-28 text-center sm:text-left max-w-4xl mx-auto">
-        {/* Logo */}
-        <Image
-          src="/cv-icon.svg"
-          alt="CVMindscape logo"
-          width={200}
-          height={40}
-          className="dark:invert"
-          priority
-        />
 
         {/* Heading */}
         <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tight text-blue-700 dark:text-blue-100">
