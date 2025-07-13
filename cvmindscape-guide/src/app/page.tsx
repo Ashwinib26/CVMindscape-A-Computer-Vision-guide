@@ -26,7 +26,7 @@ export default function Home() {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 mt-6">
           <Link href="/theory">
-            <button className="rounded-full px-6 py-3 text-white bg-blue-600 hover:bg-blue-700 transition shadow-lg font-semibold">
+            <button className="rounded-full px-6 py-3 text-white bg-blue-900 hover:bg-blue-700 transition shadow-lg font-semibold">
               📖 Explore Theory
             </button>
           </Link>
