@@ -34,6 +34,11 @@ mlverse/
 └── README.md
 
 ````
+---
+## 📷 Screenshots
+<img width="1919" height="985" alt="image" src="https://github.com/user-attachments/assets/ea505c1a-a921-44b0-b692-8aa62dd77f93" />
+<img width="1905" height="986" alt="image" src="https://github.com/user-attachments/assets/b9dc7976-42a9-45fd-9b7e-40a12a24c0d9" />
+<img width="1919" height="996" alt="image" src="https://github.com/user-attachments/assets/13dadffd-b4b3-4532-9374-960b2d15fd1c" />
 
 ---
 
